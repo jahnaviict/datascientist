@@ -19,6 +19,10 @@ Your dataset should be in **JSON format** with the following fields:
 - **`input`**: The instruction or prompt.  
 - **`output`**: The expected response.  
 - **`context`**: Any additional context (optional).  
+By running this code:
+```bash
+python data_format.py
+```
 
 ### Example JSON format (`alpaca_output.json`):  
 
@@ -42,5 +46,5 @@ Run the script to start fine-tuning:
 
 ```bash
 
-python fine_tune.py
+python training.py
 ```
