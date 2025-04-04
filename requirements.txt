@@ -1,0 +1,6 @@
+torch
+unsloth
+transformers
+datasets
+peft
+json
