@@ -19,7 +19,9 @@ Your dataset should be in **JSON format** with the following fields:
 - **`input`**: The instruction or prompt.  
 - **`output`**: The expected response.  
 - **`context`**: Any additional context (optional).
+  
 By running this code:
+
 ```bash
 python data_format.py
 ```
